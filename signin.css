@@ -1,0 +1,101 @@
+*{
+    border: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.border:hover{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.sign_up{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+    background-image: url("img.jpg");
+    background-size:cover;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+}
+form{
+    justify-content: center;
+    align-items: center;
+}
+.table_head{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ff9603;
+    display: inline;
+}
+.table{
+    text-align: center;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 50px;
+    color: azure;
+    margin-bottom: 50px
+
+}
+.submit{
+    background-color: rgb(255, 196, 0);
+    border-radius: 8px;
+}
+
+a{
+    color: rgb(0, 242, 255);
+}
+.type{
+border-radius: 10px;
+width: 300px;
+}
+
+
+/* footer */
+.footer{
+    margin: top 10px ;
+}
+
+
+.foot-panel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    margin-top: 20px;
+}
+
+
+.end{
+    background-color: #374753;;
+    color: white;
+    height: 300px;
+}
+.end p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pages {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-evenly;
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+
+.pages a:hover{
+text-decoration: underline;
+}
